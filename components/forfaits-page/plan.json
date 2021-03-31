@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_forfaits_page_plans",
+  "info": {
+    "name": "plan",
+    "icon": "cash-register"
+  },
+  "options": {},
+  "attributes": {
+    "planId": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "payment": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

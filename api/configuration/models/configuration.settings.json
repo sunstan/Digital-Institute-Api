@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "configuration",
+  "info": {
+    "name": "configuration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "legals": {
+      "type": "string",
+      "required": true
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "configuration.socials"
+    },
+    "notFound": {
+      "type": "component",
+      "repeatable": false,
+      "component": "configuration.not-found",
+      "required": true
+    }
+  }
+}

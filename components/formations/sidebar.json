@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_formations_sidebars",
+  "info": {
+    "name": "sidebar",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.rich-list-item"
+    }
+  }
+}

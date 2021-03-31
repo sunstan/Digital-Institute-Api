@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_page",
+  "info": {
+    "name": "Equipe",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.section",
+      "required": true
+    },
+    "persons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-page.person",
+      "required": true
+    }
+  }
+}

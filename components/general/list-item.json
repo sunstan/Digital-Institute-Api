@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_list_items",
+  "info": {
+    "name": "listItem",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

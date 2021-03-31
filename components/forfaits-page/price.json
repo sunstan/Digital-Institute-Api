@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_forfaits_page_prices",
+  "info": {
+    "name": "price",
+    "icon": "calculator"
+  },
+  "options": {},
+  "attributes": {
+    "planId": {
+      "type": "integer",
+      "required": true
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

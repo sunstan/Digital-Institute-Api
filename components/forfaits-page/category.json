@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_forfaits_page_categories",
+  "info": {
+    "name": "category",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forfaits-page.forfait"
+    }
+  }
+}

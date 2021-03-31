@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_configuration_socials",
+  "info": {
+    "name": "socials",
+    "icon": "share"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/contact-page",
+            "handler": "contact-page.find",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "POST",
+            "path": "/contact-page/send",
+            "handler": "contact-page.send",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "PUT",
+            "path": "/contact-page",
+            "handler": "contact-page.update",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "DELETE",
+            "path": "/contact-page",
+            "handler": "contact-page.delete",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}

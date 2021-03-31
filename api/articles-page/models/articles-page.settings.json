@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "articles_page",
+  "info": {
+    "name": "Actualités",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.section"
+    }
+  }
+}

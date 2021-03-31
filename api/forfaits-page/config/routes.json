@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forfaits-page",
+      "handler": "forfaits-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forfaits-page",
+      "handler": "forfaits-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forfaits-page",
+      "handler": "forfaits-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

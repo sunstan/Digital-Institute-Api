@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/expertises-page",
+      "handler": "expertises-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/expertises-page",
+      "handler": "expertises-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/expertises-page",
+      "handler": "expertises-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

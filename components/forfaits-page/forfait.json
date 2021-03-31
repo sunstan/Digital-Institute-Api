@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_forfaits_page_forfaits",
+  "info": {
+    "name": "forfait",
+    "icon": "shopping-basket",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forfaits-page.price",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-item",
+      "required": true
+    },
+    "action": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

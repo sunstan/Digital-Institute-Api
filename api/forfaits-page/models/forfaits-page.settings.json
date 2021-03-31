@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "forfaits_page",
+  "info": {
+    "name": "forfaits",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "general.section"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forfaits-page.category",
+      "required": true
+    },
+    "extras": {
+      "type": "component",
+      "repeatable": false,
+      "component": "forfaits-page.extras",
+      "required": true
+    },
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forfaits-page.plan"
+    }
+  }
+}

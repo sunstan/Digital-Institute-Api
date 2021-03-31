@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: Ecully2021
+      MYSQL_DATABASE: digital
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

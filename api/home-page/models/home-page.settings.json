@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page",
+  "info": {
+    "name": "Accueil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.section",
+      "required": true
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.rich-list-item",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.banner",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.testimonials",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formations-page",
+      "handler": "formations-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formations-page",
+      "handler": "formations-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formations-page",
+      "handler": "formations-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

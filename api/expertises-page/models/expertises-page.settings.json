@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "expertises_page",
+  "info": {
+    "name": "Expertises",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.section",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "expertises-page.expertise",
+      "required": true
+    }
+  }
+}
